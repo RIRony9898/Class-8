@@ -1,5 +1,11 @@
-div{
+body{
+    background: mediumvioletred;
+}
+.div1{
     background: rgb(216, 105, 105);
+    width: 30%;
+    height: 150px;
+    overflow: scroll;
 }
 
 .a{
@@ -13,4 +19,16 @@ div{
 
 .c{
     background: skyblue;
+}
+.div2{
+    background: rgb(50, 107, 212);
+    width: 30%;
+    height: 150px;
+    overflow: scroll;
+}
+.img{
+    opacity: .8
+}
+.img:hover{
+    opacity: 1;
 }
